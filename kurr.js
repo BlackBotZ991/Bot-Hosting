@@ -517,10 +517,10 @@ if (!isCreator) throw  m.reply(`Lu Siapa Ajg`)
                                           m.reply(`GG KAN BOT NYA BY BLACK HOSTING \n`)
                                           break
                                           case 'addpack':
-         if(from != "120363041730746951@g.us") return m.reply("maaf su fitur ini dapet di gunakan group tertentu")
+         if(from != "120363023031027389@g.us") return m.reply("maaf su fitur ini dapet di gunakan group tertentu")
         let sUser1 = "root";
-        let sPass1 = "kurr123@@";
-        let serverName1 = "1.darkshadow-hosting.cf";
+        let sPass1 = "@@arjuna09";
+        let serverName1 = "vvip.pandawanesia.xyz.";
 
         let uname1 = args?.join(" ")?.trim()?.split("|")?.[0]?.trim();
         let pack1 = args?.join(" ")?.trim()?.split("|")?.[1]?.trim();
@@ -584,7 +584,7 @@ if (!isCreator) throw  m.reply(`Lu Siapa Ajg`)
           });
         break                                          
         case 'domain':
- if(from != "120363041730746951@g.us") return m.reply("maaf su fitur ini dapet di gunakan group tertentu")
+ if(from != "120363023031027389@g.us") return m.reply("maaf su fitur ini dapet di gunakan group tertentu")
         function subDomain1(host, ip) {
           return new Promise((resolve) => {
             let zone1 = "aeaf77a4ba032b49fdd67346020f7616";
