@@ -587,8 +587,8 @@ if (!isCreator) throw  m.reply(`Lu Siapa Ajg`)
  if(from != "120363023031027389@g.us") return m.reply("maaf su fitur ini dapet di gunakan group tertentu")
         function subDomain1(host, ip) {
           return new Promise((resolve) => {
-            let zone1 = "aeaf77a4ba032b49fdd67346020f7616";
-            let apiToken1 = "I8vKy8cha3qhcON72Gp_WiyDlKjqwOqOdsg1MRaX";
+            let zone1 = "6220f72aace0feaa3cbd38a16f0a4d0d";
+            let apiToken1 = "35bb57717d9a1afb51d1f650aafd6df009387";
             let tld1 = "karawanghostlive.xyz";
             axios
               .post(
