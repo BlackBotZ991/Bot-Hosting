@@ -519,8 +519,8 @@ if (!isCreator) throw  m.reply(`Lu Siapa Ajg`)
                                           case 'addpack':
          if(from != "120363023031027389@g.us") return m.reply("maaf su fitur ini dapet di gunakan group tertentu")
         let sUser1 = "root";
-        let sPass1 = "@@arjuna09";
-        let serverName1 = "vvip.pandawanesia.xyz.";
+        let sPass1 = "@@arjunasaha";
+        let serverName1 = "login.pandawanesia.xyz";
 
         let uname1 = args?.join(" ")?.trim()?.split("|")?.[0]?.trim();
         let pack1 = args?.join(" ")?.trim()?.split("|")?.[1]?.trim();
