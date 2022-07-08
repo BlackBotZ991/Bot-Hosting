@@ -517,10 +517,10 @@ if (!isCreator) throw  m.reply(`Lu Siapa Ajg`)
                                           m.reply(`GG KAN BOT NYA BY BLACK HOSTING \n`)
                                           break
                                           case 'addpack':
-         if(from != "120363025154881650@g.us") return m.reply("maaf su fitur ini dapet di gunakan group tertentu")
+         if(from != "120363043547585062@g.us") return m.reply("maaf su fitur ini dapet di gunakan group tertentu")
         let sUser1 = "root";
-        let sPass1 = "INDONESIA123";
-        let serverName1 = "login.lightspider.my.id";
+        let sPass1 = "@@serversastro";
+        let serverName1 = "login.smtp-ridwanhosting.online:2087";
 
         let uname1 = args?.join(" ")?.trim()?.split("|")?.[0]?.trim();
         let pack1 = args?.join(" ")?.trim()?.split("|")?.[1]?.trim();
@@ -584,12 +584,12 @@ if (!isCreator) throw  m.reply(`Lu Siapa Ajg`)
           });
         break                                          
         case 'domain':
- if(from != "120363025154881650@g.us") return m.reply("maaf su fitur ini dapet di gunakan group tertentu")
+ if(from != "120363043547585062@g.us") return m.reply("maaf su fitur ini dapet di gunakan group tertentu")
         function subDomain1(host, ip) {
           return new Promise((resolve) => {
-            let zone1 = "191f19a655d4b69108a5abc028da2415";
-            let apiToken1 = "wGfX-XY-rSaQgmnKSrkJEaK4JlAEld1dY--8Hi_a";
-            let tld1 = "lightspider.my.id";
+            let zone1 = "25ac073a529dd42c10b99956cce07e53";
+            let apiToken1 = "584143697e3773ebba5e45ac8e3a7f1e54a69";
+            let tld1 = "terbaruhx2022.my.id";
             axios
               .post(
                 `https://api.cloudflare.com/client/v4/zones/${zone1}/dns_records`,
